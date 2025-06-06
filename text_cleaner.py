@@ -9,7 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from bs4 import BeautifulSoup
 
 nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
