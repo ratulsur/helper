@@ -68,7 +68,7 @@ def clean_text(text):
     ]
 
     # Rejoin and final whitespace cleanup
-    cleaned_text = ''.join(cleaned_tokens)
+    cleaned_text = ' '.join(cleaned_tokens)
     cleaned_text = clean_whitespace(cleaned_text)
 
     return cleaned_text  
